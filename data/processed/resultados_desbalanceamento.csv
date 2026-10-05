@@ -1,0 +1,17 @@
+rodada,celula,feature_set,modelo,papel_modelo,estrategia,n_anos_teste,positivos_teste,prevalencia_teste,auc_roc,pr_auc,prec_05,rec_05,f1_05,cm_05_tn_fp_fn_tp,thr_medio,prec_thr,rec_thr,f1_thr,cm_thr_tn_fp_fn_tp,thr_calibrado_fallbacks
+feedback_orientador,proxy_N1_ge2,completo,rf,RF (= melhor da célula),balanced,75,19,0.253,0.678,0.586,1.0,0.211,0.348,56/0/15/4,0.515,1.0,0.105,0.19,56/0/17/2,0
+feedback_orientador,proxy_N1_ge2,completo,rf,RF (= melhor da célula),sem_peso,75,19,0.253,0.649,0.507,0.0,0.0,0.0,56/0/19/0,0.405,0.8,0.211,0.333,55/1/15/4,0
+feedback_orientador,proxy_N1_ge2,completo,rf,RF (= melhor da célula),thr_calibrado,75,19,0.253,0.678,0.586,1.0,0.211,0.348,56/0/15/4,0.404,0.474,0.474,0.474,46/10/10/9,0
+feedback_orientador,proxy_N1_ge2,completo,rf,RF (= melhor da célula),undersampling,75,19,0.253,0.622,0.425,0.333,0.526,0.408,36/20/9/10,0.553,0.357,0.263,0.303,47/9/14/5,0
+feedback_orientador,proxy_N1_ge2,sem_dipl,rf,RF (= melhor da célula),balanced,81,19,0.235,0.699,0.514,0.667,0.211,0.32,60/2/15/4,0.5,0.571,0.211,0.308,59/3/15/4,0
+feedback_orientador,proxy_N1_ge2,sem_dipl,rf,RF (= melhor da célula),sem_peso,81,19,0.235,0.677,0.485,1.0,0.053,0.1,62/0/18/1,0.394,0.5,0.211,0.296,58/4/15/4,0
+feedback_orientador,proxy_N1_ge2,sem_dipl,rf,RF (= melhor da célula),thr_calibrado,81,19,0.235,0.699,0.514,0.667,0.211,0.32,60/2/15/4,0.409,0.45,0.474,0.462,51/11/10/9,0
+feedback_orientador,proxy_N1_ge2,sem_dipl,rf,RF (= melhor da célula),undersampling,81,19,0.235,0.649,0.391,0.37,0.526,0.435,45/17/9/10,0.558,0.375,0.316,0.343,52/10/13/6,0
+feedback_orientador,war_N1_ge2,completo,rf,RF,balanced,75,14,0.187,0.437,0.18,0.0,0.0,0.0,58/3/14/0,0.502,0.0,0.0,0.0,59/2/14/0,0
+feedback_orientador,war_N1_ge2,completo,rf,RF,sem_peso,75,14,0.187,0.453,0.185,0.0,0.0,0.0,61/0/14/0,0.347,0.0,0.0,0.0,57/4/14/0,0
+feedback_orientador,war_N1_ge2,completo,rf,RF,thr_calibrado,75,14,0.187,0.437,0.18,0.0,0.0,0.0,58/3/14/0,0.31,0.189,0.5,0.275,31/30/7/7,3
+feedback_orientador,war_N1_ge2,completo,rf,RF,undersampling,75,14,0.187,0.437,0.231,0.136,0.214,0.167,42/19/11/3,0.574,0.1,0.071,0.083,52/9/13/1,0
+feedback_orientador,war_N1_ge2,nivel_delta,logreg,"melhor da célula (P4, PR-AUC)",balanced,75,14,0.187,0.552,0.263,0.273,0.429,0.333,45/16/8/6,0.6,0.267,0.286,0.276,50/11/10/4,0
+feedback_orientador,war_N1_ge2,nivel_delta,logreg,"melhor da célula (P4, PR-AUC)",sem_peso,75,14,0.187,0.509,0.235,0.2,0.143,0.167,53/8/12/2,0.348,0.174,0.286,0.216,42/19/10/4,0
+feedback_orientador,war_N1_ge2,nivel_delta,logreg,"melhor da célula (P4, PR-AUC)",thr_calibrado,75,14,0.187,0.552,0.263,0.273,0.429,0.333,45/16/8/6,0.429,0.219,0.5,0.304,36/25/7/7,3
+feedback_orientador,war_N1_ge2,nivel_delta,logreg,"melhor da célula (P4, PR-AUC)",undersampling,75,14,0.187,0.591,0.297,0.242,0.571,0.34,36/25/6/8,0.627,0.2,0.357,0.256,41/20/9/5,0

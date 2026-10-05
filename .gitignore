@@ -1,0 +1,22 @@
+# =====================================================
+# TCC MBA USP/ESALQ - Data Science & Analytics
+# Predição de instabilidade sistêmica em redes interestatais
+# =====================================================
+
+# --- Python / sistema ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.venv-gnn/
+venv/
+.DS_Store
+~$*
+
+# --- Dados brutos COW (não redistribuídos; ver README para download) ---
+data/raw/**
+!data/raw/.gitkeep
+
+# --- Documentos de texto (o TCC é publicado pelo repositório institucional) ---
+*.docx
+*.pdf

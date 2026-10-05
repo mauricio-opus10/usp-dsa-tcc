@@ -1,0 +1,12 @@
+# Ambiente da abordagem clássica (Python 3.12) – diagnóstico, atributos,
+# modelos clássicos, robustez, SHAP e figuras.
+networkx==3.6.1
+pandas==2.3.3
+numpy==2.3.4
+scipy==1.16.3
+python-louvain==0.16
+scikit-learn==1.7.2
+xgboost==3.3.0
+shap==0.52.0
+imbalanced-learn==0.14.2
+matplotlib==3.10.7

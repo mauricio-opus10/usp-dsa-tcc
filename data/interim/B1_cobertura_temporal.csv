@@ -1,0 +1,6 @@
+camada,arquivo,col_ano,ano_min,ano_max,cadencia,obs
+alianças (CINC source: n/a),alliances/alliance_v4.1_by_dyad_yearly.csv,year,1816,2012,anual,year==0 = censura/sem ano; ignorado
+comércio,trade/Dyadic_COW_4.0.csv,year,1870,2014,anual,usar smoothtotrade>0
+disputas (MIDB),mids/MIDB 5.0.csv,styear/endyear,1816,2014,anual (intervalos st..end),ativa em t se styear<=t<=endyear
+CINC (NMC),nmc/NMC_5_0.csv,year,1816,2012,anual,LIMITA composição do sistema (nós)
+diplomacia,diplomatic/Diplomatic_Exchange_2006v1.csv,year,1817,2005,~quinquenal (38 anos medidos),NÃO é anual

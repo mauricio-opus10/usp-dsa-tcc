@@ -1,0 +1,7 @@
+rodada,cinc_threshold,n_estados_medio_ano,feature_set,modelo,anos_utilizaveis,prevalencia_janela,n_anos_teste,positivos_teste,prevalencia_teste,auc_roc,pr_auc,origem
+feedback_orientador,0.005,27.2,completo,rf,116,0.328,75,25,0.333,0.494,0.364,reconstruído (esta rodada)
+feedback_orientador,0.005,27.2,sem_dipl,rf,122,0.311,81,25,0.309,0.568,0.381,reconstruído (esta rodada)
+feedback_orientador,0.01,15.3,completo,rf,116,0.267,75,19,0.253,0.678,0.586,"base (reutilizado)"
+feedback_orientador,0.01,15.3,sem_dipl,rf,122,0.254,81,19,0.235,0.699,0.514,"base (reutilizado)"
+feedback_orientador,0.015,10.4,completo,rf,113,0.248,72,16,0.222,0.654,0.42,reconstruído (esta rodada)
+feedback_orientador,0.015,10.4,sem_dipl,rf,119,0.235,78,16,0.205,0.685,0.426,reconstruído (esta rodada)

@@ -1,0 +1,14 @@
+sujeito,relacao,objeto,atributos,fonte
+USA,tem_atributo,CINC,ano=1914; cinc=0.206,NMC_5_0.csv
+GMY,tem_atributo,CINC,ano=1914; cinc=0.158,NMC_5_0.csv
+UKG,tem_atributo,CINC,ano=1914; cinc=0.138,NMC_5_0.csv
+GMY,aliado_de,AUH,ano=1914; tipo(s)=defesa,alliance_v4.1_by_dyad_yearly.csv
+FRN,aliado_de,RUS,ano=1914; tipo(s)=defesa,alliance_v4.1_by_dyad_yearly.csv
+UKG,aliado_de,FRN,ano=1914; tipo(s)=entente,alliance_v4.1_by_dyad_yearly.csv
+GMY,participa_de,Disputa MID#257,lado=A; styear=1914; endyear=1918; hostlev=5; fatality=6,MIDB 5.0.csv
+AUH,participa_de,Disputa MID#257,lado=A; styear=1914; endyear=1918; hostlev=5; fatality=6,MIDB 5.0.csv
+FRN,participa_de,Disputa MID#257,lado=B; styear=1914; endyear=1918; hostlev=5; fatality=6,MIDB 5.0.csv
+UKG,participa_de,Disputa MID#257,lado=B; styear=1914; endyear=1918; hostlev=5; fatality=6,MIDB 5.0.csv
+UKG,intercambio_diplomatico,GMY,ano=1914; DE=1; DR_at_1=3; DR_at_2=3,Diplomatic_Exchange_2006v1.csv
+CHN,comercia_com,JPN,ano=1914; smoothtotrade=154.0,Dyadic_COW_4.0.csv
+UKG,comercia_com,GMY,ano=1914; smoothtotrade=-9 (código de valor ausente na fonte),Dyadic_COW_4.0.csv

@@ -1,0 +1,10 @@
+definicao,horizonte_N,n_onset_years,positivos,negativos,taxa_positiva
+war (hostlev==5),1,30,30,93,0.244
+war (hostlev==5),3,30,70,53,0.569
+war (hostlev==5),5,30,87,36,0.707
+use_of_force+ (hostlev>=4),1,113,113,10,0.919
+use_of_force+ (hostlev>=4),3,113,122,1,0.992
+use_of_force+ (hostlev>=4),5,113,122,1,0.992
+fatal (fatality>=1),1,63,63,60,0.512
+fatal (fatality>=1),3,63,100,23,0.813
+fatal (fatality>=1),5,63,113,10,0.919

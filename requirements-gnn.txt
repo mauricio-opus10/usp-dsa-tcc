@@ -1,0 +1,9 @@
+# Ambiente dedicado às redes neurais de grafos (Python 3.14, CPU) –
+# usado apenas por scripts/rodar_gnn.py. Não misturar com requirements.txt.
+torch==2.12.1
+torch-geometric==2.8.0
+scikit-learn==1.9.0
+numpy==2.5.1
+pandas==3.0.3
+networkx==3.6.1
+matplotlib==3.11.0

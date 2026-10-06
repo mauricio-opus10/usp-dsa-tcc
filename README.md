@@ -11,9 +11,9 @@ análise passa de descritiva a preditiva, com recortes anuais.
 
 ## Pergunta de pesquisa
 
-É possível, a partir de métricas estruturais de redes interestatais
-multicamada, treinar modelos de aprendizado de máquina capazes de distinguir
-anos de estabilidade de anos que antecedem conflitos de alta intensidade?
+Métricas estruturais calculadas sobre as redes de alianças, comércio, disputas
+e diplomacia entre grandes potências permitem a um classificador separar os
+anos tranquilos daqueles que precedem conflitos graves?
 
 ## Desenho
 
@@ -33,12 +33,13 @@ anos de estabilidade de anos que antecedem conflitos de alta intensidade?
 
 ## Resultado em uma frase
 
-Apenas o proxy de disputas no horizonte de um ano apresentou sinal, com random
-forest (AUC-ROC de 0,678 e 0,699), mas os intervalos de confiança de 95%
-incluem o acaso e o sinal se concentra em 1931–1945. O rótulo oficial de
-guerra ficou no nível do acaso e as redes neurais de grafos não superaram o
-modelo clássico. Os resultados são indícios, não evidência, e a predição é
-estrutural, não causal.
+A capacidade preditiva não ficou demonstrada. O melhor modelo (random forest
+sobre o proxy de disputas, horizonte de um ano) chega a AUC-ROC de 0,68 a 0,70,
+porém com intervalos de confiança que abrangem o acaso; esse desempenho
+agregado é reproduzido por uma simples ordenação cronológica dos anos e some
+a partir de 1946, restando apenas um indício em 1931–1945. O rótulo oficial de
+guerra fica no acaso em todos os modelos, e as GNN não batem o classificador
+clássico. Toda a leitura é estrutural, nunca causal.
 
 Os números vêm de `data/processed/resultados_baseline.csv`,
 `data/processed/robustez_bootstrap_ic.csv` e
